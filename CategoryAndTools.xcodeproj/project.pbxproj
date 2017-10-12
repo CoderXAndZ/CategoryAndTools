@@ -40,6 +40,20 @@
 		8431FD701F8F0F5600243DF9 /* CategoryAndToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CategoryAndToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8431FD741F8F0F5600243DF9 /* CategoryAndToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryAndToolsTests.m; sourceTree = "<group>"; };
 		8431FD761F8F0F5600243DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8431FD831F8F0F8D00243DF9 /* UIBarButtonItem+XZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XZExtension.h"; sourceTree = "<group>"; };
+		8431FD841F8F0F8D00243DF9 /* UIBarButtonItem+XZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XZExtension.m"; sourceTree = "<group>"; };
+		8431FD851F8F0F8D00243DF9 /* UIButton+XZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+XZExtension.h"; sourceTree = "<group>"; };
+		8431FD861F8F0F8D00243DF9 /* UIButton+XZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XZExtension.m"; sourceTree = "<group>"; };
+		8431FD871F8F0F8D00243DF9 /* UIColor+XZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+XZExtension.h"; sourceTree = "<group>"; };
+		8431FD881F8F0F8D00243DF9 /* UIColor+XZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XZExtension.m"; sourceTree = "<group>"; };
+		8431FD891F8F0F8D00243DF9 /* UIImage+XZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XZExtension.h"; sourceTree = "<group>"; };
+		8431FD8A1F8F0F8D00243DF9 /* UIImage+XZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XZExtension.m"; sourceTree = "<group>"; };
+		8431FD8B1F8F0F8D00243DF9 /* UITextField+XZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+XZExtension.h"; sourceTree = "<group>"; };
+		8431FD8C1F8F0F8D00243DF9 /* UITextField+XZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+XZExtension.m"; sourceTree = "<group>"; };
+		8431FD8D1F8F0F8D00243DF9 /* UIView+XZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XZExtension.h"; sourceTree = "<group>"; };
+		8431FD8E1F8F0F8D00243DF9 /* UIView+XZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XZExtension.m"; sourceTree = "<group>"; };
+		8431FD901F8F0F8D00243DF9 /* XZAutoHideAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZAutoHideAlertView.h; sourceTree = "<group>"; };
+		8431FD911F8F0F8D00243DF9 /* XZAutoHideAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZAutoHideAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,7 @@
 		8431FD5A1F8F0F5500243DF9 /* CategoryAndTools */ = {
 			isa = PBXGroup;
 			children = (
+				8431FD7F1F8F0F8D00243DF9 /* CategoryAndTools */,
 				8431FD5B1F8F0F5500243DF9 /* AppDelegate.h */,
 				8431FD5C1F8F0F5500243DF9 /* AppDelegate.m */,
 				8431FD5E1F8F0F5500243DF9 /* ViewController.h */,
@@ -101,6 +116,43 @@
 				8431FD761F8F0F5600243DF9 /* Info.plist */,
 			);
 			path = CategoryAndToolsTests;
+			sourceTree = "<group>";
+		};
+		8431FD7F1F8F0F8D00243DF9 /* CategoryAndTools */ = {
+			isa = PBXGroup;
+			children = (
+				8431FD821F8F0F8D00243DF9 /* Category */,
+				8431FD8F1F8F0F8D00243DF9 /* Tools */,
+			);
+			path = CategoryAndTools;
+			sourceTree = "<group>";
+		};
+		8431FD821F8F0F8D00243DF9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8431FD831F8F0F8D00243DF9 /* UIBarButtonItem+XZExtension.h */,
+				8431FD841F8F0F8D00243DF9 /* UIBarButtonItem+XZExtension.m */,
+				8431FD851F8F0F8D00243DF9 /* UIButton+XZExtension.h */,
+				8431FD861F8F0F8D00243DF9 /* UIButton+XZExtension.m */,
+				8431FD871F8F0F8D00243DF9 /* UIColor+XZExtension.h */,
+				8431FD881F8F0F8D00243DF9 /* UIColor+XZExtension.m */,
+				8431FD891F8F0F8D00243DF9 /* UIImage+XZExtension.h */,
+				8431FD8A1F8F0F8D00243DF9 /* UIImage+XZExtension.m */,
+				8431FD8B1F8F0F8D00243DF9 /* UITextField+XZExtension.h */,
+				8431FD8C1F8F0F8D00243DF9 /* UITextField+XZExtension.m */,
+				8431FD8D1F8F0F8D00243DF9 /* UIView+XZExtension.h */,
+				8431FD8E1F8F0F8D00243DF9 /* UIView+XZExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8431FD8F1F8F0F8D00243DF9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8431FD901F8F0F8D00243DF9 /* XZAutoHideAlertView.h */,
+				8431FD911F8F0F8D00243DF9 /* XZAutoHideAlertView.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
